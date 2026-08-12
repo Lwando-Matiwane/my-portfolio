@@ -948,7 +948,7 @@
           </div>
           <div class="hero-social-icons">
             <a href="mailto:lwandomatiwane84@gmail.com"           class="social-icon" title="Personal Email">✉️</a>
-            <a href="https://github.com/25078185"                 class="social-icon" title="GitHub"   target="_blank">💻</a>
+            <a href="https://github.com/Lwando-Matiwane"                 class="social-icon" title="GitHub"   target="_blank">💻</a>
             <a href="https://www.linkedin.com/in/lwando-matiwane" class="social-icon" title="LinkedIn" target="_blank">🔗</a>
             <a href="mailto:25078185@mvula.univen.ac.za"          class="social-icon" title="Student Email">🎓</a>
           </div>
@@ -1056,9 +1056,9 @@
                 <div class="contact-icon">🎓</div>
                 <div class="contact-link-info"><div class="contact-link-label">Student Email</div><div class="contact-link-value">25078185@mvula.univen.ac.za</div></div>
               </a>
-              <a href="https://github.com/25078185" target="_blank" class="contact-link-item">
+              <a href="https://github.com/Lwando-Matiwane" target="_blank" class="contact-link-item">
                 <div class="contact-icon">💻</div>
-                <div class="contact-link-info"><div class="contact-link-label">GitHub</div><div class="contact-link-value">github.com/25078185</div></div>
+                <div class="contact-link-info"><div class="contact-link-label">GitHub</div><div class="contact-link-value">github.com/Lwando-Matiwane</div></div>
               </a>
               <a href="https://www.linkedin.com/in/lwando-matiwane" target="_blank" class="contact-link-item">
                 <div class="contact-icon">🔗</div>
@@ -1168,7 +1168,7 @@
     }
 
     function loadProjects() {
-      fetch('https://api.github.com/users/25078185/repos?sort=updated&per_page=12')
+      fetch('https://api.github.com/users/Lwando-Matiwane/repos?sort=updated&per_page=12')
         .then(function(res) { return res.json(); })
         .then(function(repos) {
           if (!Array.isArray(repos)) throw new Error('bad');
@@ -1195,7 +1195,7 @@
         })
         .catch(function() {
           document.getElementById('projectsGrid').innerHTML =
-            '<p style="text-align:center;color:rgba(245,245,240,0.6);grid-column:1/-1;">Could not load projects. Visit <a href="https://github.com/25078185" target="_blank" style="color:var(--accent2);">my GitHub</a> directly.</p>';
+            '<p style="text-align:center;color:rgba(245,245,240,0.6);grid-column:1/-1;">Could not load projects. Visit <a href="https://github.com/Lwando-Matiwane" target="_blank" style="color:var(--accent2);">my GitHub</a> directly.</p>';
         });
     }
 
